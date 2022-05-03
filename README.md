@@ -20,19 +20,23 @@ GET https://localhost:44383/api/persons/2/link
 POST https://localhost:44383/api/persons/
 1. Body => Raw => JSON
 2. Till exempel: 
+```
 {
     "Title": "Skiing",
     "Description": "Making 360s",
     "Url": "https:\\www.skistar.com",
     "PersonId": 3
 }
+```
 
 ## Lägga till nya länkar för specifik person samt intresse - 
 
 POST https://localhost:44383/api/persons/attachLink
 1. Body => Raw => JSON
 2. Till exempel: 
+```
 {
     "InterestId": 4,
     "url": "https:\\www.chess.com"
 }
+```
